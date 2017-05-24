@@ -14,9 +14,16 @@ body{
 	background: #000;
 	height: 100vh;
 }
+
+@keyframes foto{
+	from{left:-200px;}
+	to{left:200px;}
+}
+
 .ft-perfil{
-	width:30%;
+	width:95%;
 	border-radius:50%;
+	animation: foto 5s linear 0s infinite alternate;
 }
 section{
 	display: flex;
@@ -28,5 +35,14 @@ div img {
 	width:60px;
 }
 h1{
-	color: red;
+	color: white;
+}
+
+
+
+div{
+	animation-name: exemple;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
 }
